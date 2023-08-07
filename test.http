@@ -1,0 +1,44 @@
+### Case 1: unitauto.CLASS_MAP["main.Test"] = Test
+POST http://localhost:8082/method/invoke
+
+{
+  "package": "main",
+  "class": "",
+  "method": "Test",
+  "static": true
+}
+
+
+###  Case 2: unitauto.CLASS_MAP["demo.Add"] = demo.Add
+POST http://localhost:8082/method/invoke
+
+{
+  "package": "demo",
+  "class": "Add",
+  "method": "Add",
+  "methodArgs": [
+    "int:1",
+    "int:2"
+  ]
+}
+
+
+###  Case 3: unitauto.CLASS_MAP["unitauto.demo.Test"] = demo.Test{}; unitauto.CLASS_MAP["*unitauto.demo.Test"] = &demo.Test{}
+POST http://localhost:8082/method/invoke
+
+{
+  "package": "unitauto.demo",
+  "class": "Test",
+  "method": "SetName",
+  "this": {
+    "type": "*unitauto.test.Test",
+    "value": {
+      "Id": 2,
+      "Name": "hello"
+    }
+  },
+  "methodArgs": [
+    "UnitAuto@Go"
+  ]
+}
+
