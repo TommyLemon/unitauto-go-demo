@@ -1,6 +1,8 @@
 # unitauto-go 
 UnitAuto Go Demo，提供用来做单元测试的业务函数。<br />
 UnitAuto Go Demo with functions to be unit tested.
+<img width="1495" alt="image" src="https://github.com/TommyLemon/unitauto-go-demo/assets/5738175/0c0587cb-adda-4a1a-b43d-5ad1d415fb4e">
+<img width="1495" alt="image" src="https://github.com/TommyLemon/unitauto-go-demo/assets/5738175/e9f3d5b9-a719-46e9-b48f-06ca70edbdb0">
 
 <img width="1495" alt="image" src="https://user-images.githubusercontent.com/5738175/225639582-76f8cf99-d603-4d93-ae19-77b9fd278a42.png">
 <img width="1495" alt="image" src="https://user-images.githubusercontent.com/5738175/225637162-779e64ee-46f8-41a0-b91a-c0e66d291398.png">
